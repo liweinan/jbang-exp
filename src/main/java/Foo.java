@@ -14,5 +14,6 @@ public class Foo {
         System.out.println(content);
         System.out.println(content.replaceAll("_SPRING_VER", "1.0.0"));
 
+
     }
 }
