@@ -28,7 +28,7 @@
                         </goals>
                         <configuration>
                             <jbangVersion>0.45.0</jbangVersion>
-                            <script>hello.java</script>
+                            <script>before.java</script>
                         </configuration>
                     </execution>
                     <execution>
