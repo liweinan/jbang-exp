@@ -11,6 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jbang.ver>0.45.0</jbang.ver>
     </properties>
 
     <build>
@@ -27,7 +28,7 @@
                             <goal>run</goal>
                         </goals>
                         <configuration>
-                            <jbangVersion>0.45.0</jbangVersion>
+                            <jbangVersion>${jbang.ver}</jbangVersion>
                             <script>before.java</script>
                         </configuration>
                     </execution>
@@ -38,7 +39,7 @@
                             <goal>run</goal>
                         </goals>
                         <configuration>
-                            <jbangVersion>0.45.0</jbangVersion>
+                            <jbangVersion>${jbang.ver}</jbangVersion>
                             <script>after.java</script>
                         </configuration>
                     </execution>
